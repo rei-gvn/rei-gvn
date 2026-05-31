@@ -1,0 +1,30 @@
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" maxSubsegmentDuration="PT0H0M2.000S" mediaPresentationDuration="PT0H0M4.933S" minBufferTime="PT2.000S" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011,urn:mpeg:dash:profile:cmaf:2019" type="static">
+  <Period duration="PT0H0M4.933S">
+    <AdaptationSet lang="und" maxFrameRate="30" maxHeight="720" maxWidth="720" par="1:1" segmentAlignment="true" startWithSAP="1" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+      <Representation bandwidth="222308" codecs="hvc1.1.6.L90.90" frameRate="30" height="360" id="1" mimeType="video/mp4" sar="1:1" width="360">
+        <BaseURL>f97e2861d8adfbd4ab4628ff99cfe861_360w_t1.cmfv</BaseURL>
+        <SegmentBase indexRange="1517-1592" indexRangeExact="true">
+          <Initialization range="0-1516"/>
+        </SegmentBase>
+      </Representation>
+      <Representation bandwidth="295472" codecs="hvc1.1.6.L93.90" frameRate="30" height="540" id="2" mimeType="video/mp4" sar="1:1" width="540">
+        <BaseURL>f97e2861d8adfbd4ab4628ff99cfe861_540w_t1.cmfv</BaseURL>
+        <SegmentBase indexRange="1517-1592" indexRangeExact="true">
+          <Initialization range="0-1516"/>
+        </SegmentBase>
+      </Representation>
+      <Representation bandwidth="422341" codecs="hvc1.1.6.L120.90" frameRate="30" height="720" id="3" mimeType="video/mp4" sar="1:1" width="720">
+        <BaseURL>f97e2861d8adfbd4ab4628ff99cfe861_720w_t1.cmfv</BaseURL>
+        <SegmentBase indexRange="1516-1591" indexRangeExact="true">
+          <Initialization range="0-1515"/>
+        </SegmentBase>
+      </Representation>
+      <Representation bandwidth="799962" codecs="hvc1.1.6.L120.90" frameRate="30" height="720" id="4" mimeType="video/mp4" sar="1:1" width="720">
+        <BaseURL>f97e2861d8adfbd4ab4628ff99cfe861_720w_t2.cmfv</BaseURL>
+        <SegmentBase indexRange="1515-1590" indexRangeExact="true">
+          <Initialization range="0-1514"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
